@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🧠 BrainStorm Game</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 BrainStorm</h1>
+    <p>Select Category & Level</p>
+    <div id="controls">
+      <select id="category">
+        <option>Math</option>
+        <option>Physics</option>
+        <option>Philosophy</option>
+        <option>Science</option>
+      </select>
+      <select id="level">
+        <option>Easy</option>
+        <option>Medium</option>
+        <option>Hard</option>
+      </select>
+      <button onclick="startGame()">Start</button>
+    </div>
+    <div id="quiz"></div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>

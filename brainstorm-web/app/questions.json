@@ -1,0 +1,27 @@
+{
+  "Math": {
+    "Easy": [
+      {"q": "2 + 2 = ?", "options": ["3", "4", "5", "6"], "a": "4"},
+      {"q": "5 - 3 = ?", "options": ["1", "2", "3", "4"], "a": "2"}
+    ],
+    "Medium": [],
+    "Hard": []
+  },
+  "Physics": {
+    "Easy": [
+      {"q": "What force pulls objects to Earth?", "options": ["Magnetism", "Gravity", "Friction", "Push"], "a": "Gravity"}
+    ],
+    "Medium": [],
+    "Hard": []
+  },
+  "Philosophy": {
+    "Easy": [],
+    "Medium": [],
+    "Hard": []
+  },
+  "Science": {
+    "Easy": [],
+    "Medium": [],
+    "Hard": []
+  }
+}
